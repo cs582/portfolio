@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "UTF-8">
+		<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+		<title>Carlos Salas Portfolio</title>
+		<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+		<link rel="stylesheet"
+		href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+		integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+		<!--My Fonts-->
+		<link href = "https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel = "stylesheet">
+		
+		<link rel = "stylesheet" href = "css/style.css">
+
+	</head>	
+	<body>
+		<header>
+			<div>
+				<img src = "img/logo-DKU.png" alt = "carlos_gustavo_salas_flores">
+			</div>
+			<button class = "nav-toggle" aria-label="toggle navigation">
+				<span class = "hamburger"></span>
+			</button>
+			<nav class = "nav">
+				<ul class = "nav__list">
+					<li class = "nav__item"><a href = "#home" class = "nav__link">Home</a></li>
+					<li class = "nav__item"><a href = "#services" class = "nav__link">My Skills</a></li>
+					<li class = "nav__item"><a href = "#about" class = "nav__link">About me</a></li>
+					<li class = "nav__item"><a href = "#work" class = "nav__link">My Work</a></li>
+				</ul>
+			</nav>
+		</header>
+	
+
+		<!--introduction -->
+		<section class = "intro" id = "home">
+			<h1 class = "section__title section__title--intro">
+				Hi, I am <strong>Carlos Gustavo</strong> Salas Flores
+			</h1>
+			<p class = "section__subtitle section__subtitle--intro">DATA SCIENCE STUDENT</p>
+			<img src = "img/carlos.jpg" alt = "carlos salas in a black suit" class = "intro__img">
+		</section>
+
+		<!--My services-->
+		<section class = "my-services" id = "services">
+			<h2 class = "section__title section__title--services">What I do</h2>
+			<div class = "services">
+				<div class = "service">
+					<h3>Data Science</h3>
+					<p>I am studying the B.S. in Data Science at Duke Kunshan University. I have also
+					worked on many personal projects and competitions where I was able to predict the
+					stock market performance and analyse the economic impact of COVID-19 in the US.
+					As a result, I have acquired proficiency in SQL, Python, and data science libraries
+					such as numpy, pandas, matplotlib, and scikit learn.</p>
+				</div>
+				<div class = "service">
+					<h3>AI & Machine Learning</h3>
+					<p>AI & Machine Learning is a key part of my program, besides, I have completed
+					the IBM specialization in AI Engineering. I am able to train and deploy Machine
+					Learning algorithms for Object Detection, Image Recognition, Classification, Pattern
+					Recognition, and Clustering. I have also implemented these algorithms in my personal
+					projects and research using TensorFlow, PyTorch, OpenCV, and Keras.</p>
+				</div>
+				<div class = "service">
+					<h3>Research</h3>
+					<p>I am currently working in a particle physics related project at the Duke Department
+					of Physics with Fritz London Distinguished Professor Ashutosh V. Kotwal. We are working on the implementation
+					of C/C++ AI algorithms directly into integrated circuiuts. The final purpose is to allow the
+					Large Hadron Collider (LHC) at CERN to detect the production of Dark Matter particles.</p>
+				</div>
+				<div class = "service">
+					<h3>Entrepreneurship</h3>
+					<p>In 2020, my teammates and I were National Finalists of the Alibaba GET Global Challenge, this
+					is a global competition for young entrepreneurs. Our project was Frontiers of Health, a platform
+					that offers high-quality & low-cost psychological services to students. We are currently working
+					on the development of the app and plan to launch our project within the coming year.</p>
+				</div>
+			</div>
+
+			<a href = "#work" class = "btn">My projects</a>
+		</section>
+
+	
+		<!--About Me-->
+		<section class = "about-me" id= "about">
+			<h2 class = "section__title section__title--about">Who I am</h2>
+			<p class = "section__subtitle section__subtitle--about">Data Science Student based out of Shanghai</p>
+
+			<div class = "about-me__body">
+				<p>I am a rising sophomore at Duke Kunshan University in China, am majoring in Data Science.
+				I can speak both English and Spanish at a native level and Mandarin at an intermediate level.</p>
+				<p> My interests vary from data science and software engineering to finance and entrepreneurship. 
+				But I also have other hobbies such as playing video games, drumming, and graphical design; 
+				I also make the most out of my free time by learning new skills and participating in hackathons.</p>
+			</div>
+			
+			<img src = "img/carlos_about-me.jpg" alt = "carlos in a black suit" class = "about-me__img">
+		</section>
+
+		<!--My Work-->
+		<section class = "my-work" id = "work">
+			<h2 class = "section__title--2">My work</h2>
+			
+
+			<div class = "portfolio">
+				<!--Portfolio #1 AIRBNB-->
+				<a href = "airbnb-project.html" class = "portfolio__item">
+					<img src = "airbnb.jpeg" alt = "photo of the city of new york" class = "portfolio__img">
+				</a>
+				<!--Portfolio #2 COVID-19-->
+				<a href = "covid-stocks-project.html" class = "portfolio__item">
+					<img src = "covid_stocks.jpg" alt = "a graph with some virus floating around" class = "portfolio__img">
+				</a>
+				<!--Portfolio #3 MUSIC MOODS-->
+				<a href = "music-moods-project.html" class = "portfolio__item">
+					<img src = "music_moods.jpg" alt = "a brain in the middle of music notes" class = "portfolio__img">
+				</a>
+				<!--Portfolio #4 HALF-DAY REVERSAL-->
+				<a href = "half-day-project.html" class = "portfolio__item">
+					<img src = "stocks.jpg" alt = "numbers on a screen" class = "portfolio__img">
+				</a>
+			</div>
+		</section>
+
+		
+		<!--footer-->
+		<footer>
+			<h3 align = "center">Contact information</h3>
+			<div class = "social-list__mail" align = "center">
+				<p>
+					E-mail:
+					<a href = "mailto:cs582@duke.edu" class = "footer__link">cs582@duke.edu</a>
+				</p>
+			</div>
+			<ul class = "social-list">
+				<li class = "social-list__item">
+					<a class = "social-list__link" href = "https://www.linkedin.com/in/carlosgustavosalas/">
+						<i class="fab fa-linkedin fa-2x"></i>
+					</a>
+				</li>
+				<li class = "social-list__item">
+					<a class = "social-list__link" href = "https://github.com/cs582">
+						<i class="fab fa-github fa-2x"></i>
+					</a>
+				</li>
+			</ul>
+		</footer>
+
+		<script src = "js/index.js"></script>
+
+	</body>
+</html>
