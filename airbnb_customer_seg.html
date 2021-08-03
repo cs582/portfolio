@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "UTF-8">
+		<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+		<title>Carlos Salas Portfolio</title>
+		<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+		<link rel="stylesheet"
+		href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+		integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+		<!--My Fonts-->
+		<link href = "https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel = "stylesheet">
+		
+		<link rel = "stylesheet" href = "css/style.css">
+
+	</head>	
+	<body>
+		<header>
+			<div>
+				<img src = "img/logo-carlos.png" alt = "carlos_gustavo_salas_flores">
+			</div>
+			<button class = "nav-toggle" aria-label="toggle navigation">
+				<span class = "hamburger"></span>
+			</button>
+			<nav class = "nav">
+				<ul class = "nav__list">
+					<li class = "nav__item"><a href = "index.html" class = "nav__link">Home</a></li>
+					<li class = "nav__item"><a href = "index.html#services" class = "nav__link">My Services</a></li>
+					<li class = "nav__item"><a href = "index.html#about" class = "nav__link">About me</a></li>
+					<li class = "nav__item"><a href = "index.html#work" class = "nav__link">My Work</a></li>
+				</ul>
+			</nav>
+		</header>
+	
+
+		<!--introduction -->
+		<section class = "intro" id = "home">
+			<h1 class = "section__title section__title--intro">
+				Hi, I am <strong>Carlos Gustavo</strong> Salas Flores
+			</h1>
+			<p class = "section__subtitle section__subtitle--intro">DATA SCIENCE STUDENT</p>
+			<img src = "img/carlos.jpg" alt = "carlos salas in a black suit" class = "intro__img">
+		</section>
+
+
+		<!--PROJECT-->
+
+		<div align = "center" class = "portfolio-item-indiv">
+			<h2>Airbnb customer segmentaion</h2>
+			<p>For this project I performed data analysis and K-means to segment the
+			users in different groups and search for characteristics that could make
+			them suspicious of running illegal hotels.</p>
+			<p>For more details you can visit the
+			<a href=https://github.com/cs582/Airbnb-NYC_Customer-Segmentation>GitHub repository</a>.
+			</p>
+			
+			<iframe class="scribd_iframe_embed" title="Airbnb Customer Segmentation"
+			src="https://www.scribd.com/embeds/482312021/content?start_page=1&view_mode=scroll&access_key=key-Q7rg3ac4cRAcgf4B2h65"
+			tabindex="0" data-auto-height="true" data-aspect-ratio="0.7729220222793488" scrolling="no" width="100%" height="600" frameborder="0">
+			</iframe>
+			<p  style="   margin: 12px auto 6px auto;   font-family: Helvetica,Arial,Sans-serif;   font-style: normal;  
+			font-variant: normal;   font-weight: normal;   font-size: 14px;   line-height: normal;   font-size-adjust: none;  
+			font-stretch: normal;   -x-system-font: none;   display: block;"   ><a title="View Airbnb Customer Segmentation on Scribd" 
+			href="https://www.scribd.com/document/482312021/Airbnb-Customer-Segmentation#from_embed" 
+			style="text-decoration: underline;">Airbnb Customer Segmentation</a> by <a title="View Carlos Gustavo Salas's profile on Scribd"
+			href="https://www.scribd.com/user/392114348/Carlos-Gustavo-Salas#from_embed"  style="text-decoration: underline;">Carlos Gustavo Salas</a></p>
+			</iframe>
+			<img src = "project-banners/airbnb.jpeg" alt = "A panoramic view of New York">
+		</div>
+		
+
+		<!--footer-->
+		<footer>
+			<h3 align = "center">Contact information</h3>
+			<div class = "social-list__mail" align = "center">
+				<p>
+					E-mail:
+					<a href = "mailto:cs582@duke.edu" class = "footer__link">cs582@duke.edu</a>
+				</p>
+			</div>
+			<ul class = "social-list">
+				<li class = "social-list__item">
+					<a class = "social-list__link" href = "https://www.linkedin.com/in/carlosgustavosalas/">
+						<i class="fab fa-linkedin fa-2x"></i>
+					</a>
+				</li>
+				<li class = "social-list__item">
+					<a class = "social-list__link" href = "https://github.com/cs582">
+						<i class="fab fa-github fa-2x"></i>
+					</a>
+				</li>
+			</ul>
+		</footer>
+
+		<script src = "js/index.js"></script>
+
+	</body>
+</html>
